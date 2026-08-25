@@ -32,8 +32,8 @@
 <main class="app">
   <header class="topbar"><div class="brand">🚀 宇宙数学冒险</div><div class="badge" id="timerBadge">⏱ 05:00</div></header>
   <section class="panel screen active" id="startScreen">
-    <div class="hero" aria-hidden="true">🚀</div><p class="eyebrow">行星能量任务</p><h1>点亮行星</h1>
-    <p class="intro">帮助小火箭算出正确的能量数字，让星星基地重新发亮！</p>
+    <div class="hero" aria-hidden="true">🚀</div><p class="eyebrow">点亮行星冒险</p><h1>点亮行星</h1>
+    <p class="intro">帮助小火箭算出正确的能量数字，点亮所有的行星！</p>
     <label class="name-label" for="studentName">你的华文姓名</label><input class="name-input" id="studentName" maxlength="24" placeholder="例如：小明" autocomplete="name">
     <button class="cta" id="startButton">开始任务 ✨</button><p class="tiny">每局随机抽 24 题 · 每题 3 个选择</p>
   </section>
@@ -44,7 +44,7 @@
     <div class="choices" id="choices"></div><div class="feedback" id="feedback"></div><button class="next hidden" id="nextButton">下一颗星星 →</button>
   </section>
   <section class="panel screen" id="endScreen">
-    <div class="completion-stars">✨ ⭐ ✨</div><p class="eyebrow">任务完成！</p><h1 id="endTitle">太棒了！</h1><p>你成功为星星基地送回了补给！</p>
+    <div class="completion-stars">✨ ⭐ ✨</div><p class="eyebrow">任务完成！</p><h1 id="endTitle">太棒了！</h1><p>你成功点亮了所有行星！</p>
     <div class="result-card"><span class="result-label">宇航员</span><br><b id="resultName">小小宇航员</b><br>答对题数：<b id="correctCount">0</b> 题<br>答错次数：<b id="wrongCount">0</b> 次<br>总题数：<b id="totalCount">24</b> 题<br>完成用时：<b id="usedTime">0 分 0 秒</b></div>
     <div class="leaderboard"><h2>🏆 宇宙排行榜</h2><ol class="leaderboard-list" id="leaderboardList"><li>正在读取排行榜…</li></ol></div>
     <button class="cta" id="restartButton">再玩一次 🚀</button><div class="submit-status" id="submitStatus"></div>
